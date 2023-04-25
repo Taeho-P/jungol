@@ -1,9 +1,10 @@
-package p501;
+package p502;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Fun Programming!");
+		System.out.println("Programming! It's fun.");
+		
 	}
 
 }
