@@ -6,8 +6,12 @@ public class Main {
 		int a = 55;
 		int b = 10;
 		
-		System.out.println('a'-'b');
+		System.out.printf("%d - %d = %d\n", a, b, a-b);
 
+		int c = 2008;
+		int d = 1999;
+		
+		System.out.printf("%d - %d = %d", c, d, c-d);
 	}
 
 }
