@@ -17,7 +17,7 @@ public class Main {
 
 			if (iNum == iBreak) {
 				System.out.printf("%d", iSum);
-				break
+				break;
 			}
 		}
 	}
