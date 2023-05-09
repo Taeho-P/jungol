@@ -1,4 +1,4 @@
-package p517;
+package p532;
 
 import java.util.Scanner;
 
@@ -9,13 +9,17 @@ public class Main {
 		
 		double dA = sc.nextDouble();
 		double dB = sc.nextDouble();
-		double dC = sc.nextDouble();
 		
 		sc.close();
 		
-		System.out.printf("%.3f\n", dA);
-		System.out.printf("%.3f\n", dB);
-		System.out.printf("%.3f\n", dC);
+		if(dA >= 4.0 && dB >= 4.0) {
+			System.out.println("A");
+		} else if(dA >= 3.0 && dB >= 3.0) {
+			System.out.println("B");
+		} else {
+			System.out.println("C");
+		}
+
 	}
 
 }

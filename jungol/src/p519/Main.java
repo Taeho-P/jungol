@@ -1,4 +1,4 @@
-package p109;
+package p519;
 
 import java.util.Scanner;
 
@@ -8,12 +8,14 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		int iA = sc.nextInt();
-		int iC = sc.nextInt();
 		int iB = sc.nextInt();
 		
 		sc.close();
 		
-		System.out.printf("sum = %d", iA + iB + iC);
+		iA = iA + 100;
+		iB = iB % 10;
+
+		System.out.println(iA + " " + iB);
 	}
 
 }
