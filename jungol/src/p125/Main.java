@@ -1,21 +1,20 @@
-package p520;
+package p125;
 
 import java.util.Scanner;
 
 public class Main {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		int iA = sc.nextInt();
-		
+
 		sc.close();
-		
-		System.out.println(iA++);
-		System.out.println(++iA);
-		
-		String a = "배고파";
-		
-		System.out.print(a);
+
+		for (int i = 0; i < iA; i++) {
+			System.out.print(i + 1 + " ");
+		}
+
 	}
-	
+
 }

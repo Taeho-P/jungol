@@ -1,21 +1,21 @@
-package p520;
+package p524;
 
 import java.util.Scanner;
 
 public class Main {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		int iA = sc.nextInt();
-		
+		int iB = sc.nextInt();
+
 		sc.close();
-		
-		System.out.println(iA++);
-		System.out.println(++iA);
-		
-		String a = "배고파";
-		
-		System.out.print(a);
+
+		boolean bT = 0 != (iA * iB);
+		boolean bS = 0 != (iA + iB);
+
+		System.out.print(bT + " " + bS);
 	}
-	
+
 }
